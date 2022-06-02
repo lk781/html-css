@@ -7,46 +7,4 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 <h1>Exercícios</h1>
 
-<a href="https://lk781.github.io/html-css/exercicios/ex001/index.html">Exercício 001</a>
-
-<a href="https://lk781.github.io/html-css/exercicios/ex002/index.html">Exercício 002</a>
-
-<a href="https://lk781.github.io/html-css/exercicios/ex003/index.html">Exercício 003</a>
-
-<a href="https://lk781.github.io/html-css/exercicios/ex004/index.html">Exercício 004</a>
-
-<a href="https://lk781.github.io/html-css/exercicios/ex005/index.html">Exercício 005</a>
-
-<a href="https://lk781.github.io/html-css/exercicios/ex006/index.html">Exercício 006</a>
-
-<a href="https://lk781.github.io/html-css/exercicios/ex007/index.html">Exercício 007</a>
-
-<a href="https://lk781.github.io/html-css/exercicios/ex008/index.html">Exercício 008</a>
-
-<a href="https://lk781.github.io/html-css/exercicios/ex008b/index.html">Exercício 008b</a>
-
-<a href="https://lk781.github.io/html-css/exercicios/ex009/index.html">Exercício 009</a>
-
-<a href="https://lk781.github.io/html-css/exercicios/ex010/index.html">Exercício 010</a>
-
-<h1>Desafios</h1>
-
-<a href="https://lk781.github.io/html-css/desafios/d001/index.html">Exercício 001</a>
-
-<a href="https://lk781.github.io/html-css/desafios/d002/index.html">Exercício 002</a>
-
-<a href="https://lk781.github.io/html-css/desafios/d003/index.html">Exercício 003</a>
-
-<a href="https://lk781.github.io/html-css/desafios/d004/index.html">Exercício 004</a>
-
-<a href="https://lk781.github.io/html-css/desafios/d005/index.html">Exercício 005</a>
-
-<a href="https://lk781.github.io/html-css/desafios/d006/index.html">Exercício 006</a>
-
-<a href="https://lk781.github.io/html-css/desafios/d007/index.html">Exercício 007</a>
-
-<a href="https://lk781.github.io/html-css/desafios/d008/index.html">Exercício 008</a>
-
-<a href="https://lk781.github.io/html-css/desafios/d009/index.html">Exercício 009</a>
-
-<a href="https://lk781.github.io/html-css/desafios/d0010/index.html">Exercício 010</a>
+<a href="https://lk781.github.io/html-css/exercicios/ex001/index.html">Executar Exercício 1</a>
