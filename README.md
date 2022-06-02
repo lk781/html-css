@@ -5,4 +5,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://lk781.github.io/html-css/exercicios/ex001/index.html">Exercício001</a>
+<a href="https://lk781.github.io/html-css/exercicios/ex001/index.html">Exercício 001</a>
