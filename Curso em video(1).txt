@@ -1,0 +1,272 @@
+UTF-8?
+
+ctrl + shift + p 
+
+Selecionar várias partes
+
+Clicar TAB fazerá todas irem uma linha para frente
+
+Clicar SHIFT + TAB fazerá todas irem uma linha para trás
+
+Ordem de um comando para outros lados: top right bottom left
+
+Aninhamento: Coisa que cabe dentro de outra que cabe dentro de outra que cabe outra.
+
+user agent é sempre a comfiguração do navegador
+
+Psicologia das cores:
+
+Nas HTML podem ter todos os tipos de Style
+
+Medidas Absolutas
+            cm, mm, in, px, Não se recomenda:pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+em e px é mais recomendada
+
+width: Largura
+weight: Peso
+height: Altura
+lighter: Mais leve: 100 - 900
+bold: Negrito
+bolder: Mais negrito
+italic: ítalico
+
+Dominio:Nome unico
+	  Pago anualmente
+	  Varios TDLs
+
+Hospedagem:Espaço para armazenar arquivos 
+	     Pago mensalmente
+	     Espaço,memória, recursos
+
+HTML:É uma linguagem focada em conteúdo.
+Css: É design.
+Java Script: Interatividade
+Conteúdo é texto, imagens, videos, tabelas e etc.
+Design é cores, sombras, tamanhos, posicionamento e etc
+
+Comandos
+
+CSS
+
+*: Seleciona tudo.
+outline: linha em volta da caixa, organizada em (Pixels, tipo de linha, cor)
+margin: Espaço fora., magin: auto deixa no meio, no comando margin coloca-se os px caso todos forem iguais é colocado apanas uma vez a medida, os lados são no sentido do relogio quando colocado apenas duas o primeiro número é em cima e em baixo e o segundo é esquerda e direita, ao colocar 4 numeros pode ser colocado no local de uma posicção com numeros auto fazendo com que só a posição com auto fique centralizado
+padding: Espaço dentro> organizado em px no sentido do relogio.
+outline: Contorno.
+line-height: Altura entre linhas
+
+border: númeropx solid transparent;
+border-image-source: url(): Coloca uma imagem como borda
+border-image-slice: 20;
+border-image-repeat: repeat repite a imagem, stretch ele estica;
+
+Short: border-image: url() número Repeat ou stretch
+
+box-level: Pula para uma linha em baixo.
+inline-lever: Da um espaço e na mesma linha continua o conteudo.
+display: inline: Tudo na mesma linha.
+border-radius: Deixa as bordas arrendondadas.
+box-shadow: Sombra| Quanto ela vai andar para o ladopx Quanto ela vai andar para baixopx Quanto a sombra vai espalharpx Quanto de transparência a sombra vai ter recomendação: 5px 5px 3px cor do fundo fazendo monocromia arrastando a cor para baixo.
+text-shadow: Mesma coisa box shadow menos a recomensação recomendação: 1px 1px 2px cor do título com monocromia.
+text-decoration: Decoração do texto.
+list-style: Tiras as demarcações da lista.
+text-indent: Faz parágrafo.
+>: Fazer com que apenas tag que esteja dentro de uma outra tag seja alterada.
+
+:root {
+    --nomedavariavel:cor;
+}
+
+Usada para criar opções do que foi colocado
+
+Modelo de caixas: pt1:https://youtu.be/rXF1okX0v9E pt2:https://youtu.be/-CPoDvZLQ6k
+
+   border: 10px solid darkslategray;
+
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+            */
+
+            padding: 10px;
+            /* Caso todas as medidas forem igual só é necessário colocar uma vez a medida uma vez
+               Pode ser colocado Númeropx Númeropx sendo que o primeiro número é topo e baixo e o segundo direita e esquerda
+               Pode ser colocado auto que deixa centralizado ou usar mais de um auto exemplo: 10px auto 10px auto deixa a direita e esquerda centralizada 
+            */
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px ;
+            */
+
+            margin: 20px 20px 40px 20px;
+
+            /*
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            */
+
+            outline: 5px dashed salmon;
+
+            /*
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            */
+        }
+
+        a { /* inline-level */
+            border: 10px solid red;
+            padding: 10px;
+        }
+
+Pseudo-classe: Usa-se :
+
+Hover: Ao colocar o mouse ira mudar
+Visited: Para links terem uma cor diferente caso o site ja tenha sido visitado
+Actived: Quando o link é clicado
+
+Pseudo-elemento: Usa-se ::
+
+Before: O que irá aparecer Antes
+After: O que irá aparecer Depois
+
+HTML
+
+*:Configuração global 
+q: Citação.
+h1: Título.
+p: Paragrafo.
+main:É uma fiv mas que diz que o que está dentro é o conteúdo principal.
+picture: Vai concentrar as outras fontes de imagem
+hr: Cria linha lateral.
+strong: Negrito.
+em: Itálico. 
+del: Texto deletado.
+ins: Texto inserido.
+sup: Texto sobrescrito.
+sub: Texto subscrito.
+background-image para gradiente: Para gradiente usamos depois de background-image liner-gradient(direção do gradiente(to left, to right, to bottom, e to top) e as cores cada coisa com vírgula e também pode ser usado radial-liner que forma o degrade com formas como circle círculo pode ser colocado a porcentagem de quanto uma cor vai aparecer no degrade
+vídeo:
+audio: audio para criar audios coloca a tag audio e dentro dela source src, recomendado colocar vários tipos de áudio menos wav por ser muito pesado, na tag audio temos os parametros preload="" dentro dela recomendado usar metadata, parametro autoplay ,controls para o audio ter controles, loop para reiniciar o áudio ou vídeo quando ele acabar
+
+abbr: Abreviações.
+blockquote: Citação completa
+
+
+Imagens
+
+Podem ser colocadas depois de baixadas
+
+img src"Nome da imagem" alt:"Descrição da imagem"
+
+Podem ser colocadas também por URL
+
+img src"URL da imagem" alt"Descrição da imagem"
+
+Para deixar uma imgagem centralizada é necessário colocar no css 
+
+display: block;
+margin:auto
+
+Porque a imagem não é block-inline ela é level-inline
+
+Para colocar símbolos usa o seguinte comando:
+&nome do símbolo em inglês;
+&#xcodígo do emoji;
+site: emojipedia.
+
+Imagens wallpapers
+
+background-image: url('Onde você colocará sua imagem podendo ser baixada ou pelo link da imagem');
+background-size: tamanho;
+background-repeat: Como será repetido. none: Não repete nenhuma vez deixando só uma imagem, repeat: Repete pela tela inteira, repeat-x: Repete da esquerda para a direita e repeat-y: Repete de cima para baixo
+
+background-position: Aqui é colocado qual lugar de uma imagem será colocado quando uma imagem não couber em um determinado espaço. 
+
+right top: Canto superior direito
+right center: Lado direito mas no meio
+right bottom: Canto inferior direito
+
+center center: Meio
+
+left top: Canto superior direito/esquerdo
+left center: Lado esquerdo mas no meio da imagem 
+left bottom: Canto inferior esquerdo
+
+
+Listas
+
+aside > ul {
+    list-style-type: '\2714(Codigo de emoji\00A0(ESPAÇO)\00A0'; Esse codigo não é compativel com todos os navegadores
+    list-style-position: Se o sinal vai ficar dentro use inside;
+    columns: Número de colunas;
+}
+
+Responsividade
+
+Para fazer um site responsivo coloca-se
+
+min-width: px; Menor largura possível
+max-width: px; Maior largura possível
+margin: auto;
+
+Para imagens pode ser usado
+
+width:100%;
+
+Ou
+
+<picture>
+            <source media="(max-width: Número de pixels que fara a imagem mudar px)" srcset="sua imagem menor">
+            <img src="Sua imagem" alt="Irnina Blok">
+        </picture>
+
+Responsividade com videos no Iframe
+
+Crie uma div com uma class
+
+Tudo varia de video para video a proporção vai variar dependo do vídeo
+
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+Fontes baixadas
+
+@font-face {
+            font-family: 'Love';
+            src: url(Local do Arquivo da Fonte baixada) format('Formato da Fonte Baseado Nos Tipos de Formato Abaixo');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de formato()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                -truetype-aat (Apple advanced Typography)
+                - svg
+            */
