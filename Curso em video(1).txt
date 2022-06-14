@@ -177,7 +177,7 @@ img src"URL da imagem" alt"Descrição da imagem"
 
 Para deixar uma imgagem centralizada é necessário colocar no css 
 
-display: block;
+display: block
 margin:auto
 
 Porque a imagem não é block-inline ela é level-inline
@@ -191,7 +191,7 @@ Imagens wallpapers
 
 background-image: url('Onde você colocará sua imagem podendo ser baixada ou pelo link da imagem');
 background-size: tamanho;
-background-repeat: Como será repetido. none: Não repete nenhuma vez deixando só uma imagem, repeat: Repete pela tela inteira, repeat-x: Repete da esquerda para a direita e repeat-y: Repete de cima para baixo
+background-repeat: Como será repetido. none: Não repete nenhuma vez deixando só uma imagem, repeat-y: Repete pela tela inteira, em outras palavra em pé, repeat-x: Repete da esquerda para a direita e repeat-y: Repete de cima para baixo
 background-size: Medidas com px e % e contain: Faz com que a imagem seja 100% exibida sem cortar, cover: Cobrir a imagem inteira mesmo que tenha que cortar partes da imagem
 background-position: Aqui é colocado qual lugar de uma imagem será colocado quando uma imagem não couber em um determinado espaço. 
 
