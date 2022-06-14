@@ -85,6 +85,8 @@ Usada para criar opções do que foi colocado
 
 Modelo de caixas: pt1:https://youtu.be/rXF1okX0v9E pt2:https://youtu.be/-CPoDvZLQ6k
 
+Shorthands
+
    border: 10px solid darkslategray;
 
             /*
@@ -190,14 +192,17 @@ Imagens wallpapers
 background-image: url('Onde você colocará sua imagem podendo ser baixada ou pelo link da imagem');
 background-size: tamanho;
 background-repeat: Como será repetido. none: Não repete nenhuma vez deixando só uma imagem, repeat: Repete pela tela inteira, repeat-x: Repete da esquerda para a direita e repeat-y: Repete de cima para baixo
-
+background-size: Medidas com px e % e contain: Faz com que a imagem seja 100% exibida sem cortar, cover: Cobrir a imagem inteira mesmo que tenha que cortar partes da imagem
 background-position: Aqui é colocado qual lugar de uma imagem será colocado quando uma imagem não couber em um determinado espaço. 
 
 right top: Canto superior direito
 right center: Lado direito mas no meio
 right bottom: Canto inferior direito
 
+top center: Em cima no centro
 center center: Meio
+bottom center: Em baixo no meio
+
 
 left top: Canto superior direito/esquerdo
 left center: Lado esquerdo mas no meio da imagem 
