@@ -200,10 +200,7 @@ right top: Canto superior direito
 right center: Lado direito mas no meio
 right bottom: Canto inferior direito
 
-top center: Em cima no centro
 center center: Meio
-bottom center: Em baixo no meio
-
 
 left top: Canto superior direito/esquerdo
 left center: Lado esquerdo mas no meio da imagem 
