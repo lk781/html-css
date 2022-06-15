@@ -5,24 +5,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teste de Imagem de Fundo</title>
+  <title>Fundo fixo de tela</title>
   <style>
     body {
       height: 100vh;
+      /*
       background-color: black;
       background-image: url('imagens/wallpaper002.jpg');
-      background-position: center top;
-      background-repeat: repeat;
-      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+      */
+
+      /*Shorthand - background 
+      color > image > position > repeat > [size] > attachment 
+      */
+
+      background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+      background-size: cover;
     }
 
     main {
       background-color: white;
-      width: 400px;
+      max-width: 400px;
       padding: 10px;
       margin: auto;
       border: 1px solid blue;
       border-radius: 15px;
+    }
+
+    main>p {
+      text-align: justify;
     }
   </style>
 </head>
@@ -31,6 +46,13 @@
   <main>
     <h1>Teste de Imagem de Fundo</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quibusdam esse pariatur facere? Officia dignissimos ea est excepturi hic dolorem delectus asperiores minima. Recusandae, laborum molestias tempore dolore ratione rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cumque exercitationem nobis quae, quod magni non quam sed nesciunt reiciendis velit debitis, alias neque harum! Dolorem corporis iusto beatae quae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima labore ut natus! Nostrum enim velit provident ut, sit assumenda animi delectus sunt tempora nesciunt distinctio nulla fugit accusamus dolore similique.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quibusdam esse pariatur facere? Officia dignissimos ea est excepturi hic dolorem delectus asperiores minima. Recusandae, laborum molestias tempore dolore ratione rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cumque exercitationem nobis quae, quod magni non quam sed nesciunt reiciendis velit debitis, alias neque harum! Dolorem corporis iusto beatae quae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima labore ut natus! Nostrum enim velit provident ut, sit assumenda animi delectus sunt tempora nesciunt distinctio nulla fugit accusamus dolore similique.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quibusdam esse pariatur facere? Officia dignissimos ea est excepturi hic dolorem delectus asperiores minima. Recusandae, laborum molestias tempore dolore ratione rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cumque exercitationem nobis quae, quod magni non quam sed nesciunt reiciendis velit debitis, alias neque harum! Dolorem corporis iusto beatae quae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima labore ut natus! Nostrum enim velit provident ut, sit assumenda animi delectus sunt tempora nesciunt distinctio nulla fugit accusamus dolore similique.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quibusdam esse pariatur facere? Officia dignissimos ea est excepturi hic dolorem delectus asperiores minima. Recusandae, laborum molestias tempore dolore ratione rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cumque exercitationem nobis quae, quod magni non quam sed nesciunt reiciendis velit debitis, alias neque harum! Dolorem corporis iusto beatae quae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima labore ut natus! Nostrum enim velit provident ut, sit assumenda animi delectus sunt tempora nesciunt distinctio nulla fugit accusamus dolore similique.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quibusdam esse pariatur facere? Officia dignissimos ea est excepturi hic dolorem delectus asperiores minima. Recusandae, laborum molestias tempore dolore ratione rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cumque exercitationem nobis quae, quod magni non quam sed nesciunt reiciendis velit debitis, alias neque harum! Dolorem corporis iusto beatae quae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima labore ut natus! Nostrum enim velit provident ut, sit assumenda animi delectus sunt tempora nesciunt distinctio nulla fugit accusamus dolore similique.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quibusdam esse pariatur facere? Officia dignissimos ea est excepturi hic dolorem delectus asperiores minima. Recusandae, laborum molestias tempore dolore ratione rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cumque exercitationem nobis quae, quod magni non quam sed nesciunt reiciendis velit debitis, alias neque harum! Dolorem corporis iusto beatae quae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima labore ut natus! Nostrum enim velit provident ut, sit assumenda animi delectus sunt tempora nesciunt distinctio nulla fugit accusamus dolore similique.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum quibusdam esse pariatur facere? Officia dignissimos ea est excepturi hic dolorem delectus asperiores minima. Recusandae, laborum molestias tempore dolore ratione rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cumque exercitationem nobis quae, quod magni non quam sed nesciunt reiciendis velit debitis, alias neque harum! Dolorem corporis iusto beatae quae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima labore ut natus! Nostrum enim velit provident ut, sit assumenda animi delectus sunt tempora nesciunt distinctio nulla fugit accusamus dolore similique.</p>
+
   </main>
 </body>
 
