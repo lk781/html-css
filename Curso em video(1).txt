@@ -76,6 +76,8 @@ text-decoration: Decoração do texto.
 list-style: Tiras as demarcações da lista.
 text-indent: Faz parágrafo.
 >: Fazer com que apenas tag que esteja dentro de uma outra tag seja alterada.
+position: absolute: pode ser usado top right bottom left
+
 
 :root {
     --nomedavariavel:cor;
